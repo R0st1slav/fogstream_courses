@@ -14,6 +14,6 @@ S = 109
 if V > 0:
     result = V * T % S
 elif V < 0:
-    result = (S + (V * T % S)) % 109
+    result = (S + (V * T % S)) % S
 
 print("Точка остановки: ", result)
